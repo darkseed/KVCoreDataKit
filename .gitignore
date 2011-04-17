@@ -1,0 +1,9 @@
+KVCoreDataKit.xcodeproj/*.perspectivev3
+KVCoreDataKit.xcodeproj/*.pbxuser
+build-ios/
+build-ios/*
+build-mac/
+build-mac/*
+build/
+build/*
+.DS_Store

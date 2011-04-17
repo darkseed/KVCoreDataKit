@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D33BA337135A6C6C003CDB39 /* KVNSManagedObjectAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA323135A6C6C003CDB39 /* KVNSManagedObjectAdditions.h */; };
+		D33BA338135A6C6C003CDB39 /* KVNSManagedObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BA324135A6C6C003CDB39 /* KVNSManagedObjectAdditions.m */; };
+		D33BA339135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA325135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.h */; };
+		D33BA33A135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BA326135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.m */; };
+		D33BA33F135A6C6C003CDB39 /* KVArrayController.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA32F135A6C6C003CDB39 /* KVArrayController.h */; };
+		D33BA340135A6C6C003CDB39 /* KVArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BA330135A6C6C003CDB39 /* KVArrayController.m */; };
+		D33BA341135A6C6C003CDB39 /* KVCoreDataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA331135A6C6C003CDB39 /* KVCoreDataKit.h */; };
+		D33BA342135A6C6C003CDB39 /* KVCoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA332135A6C6C003CDB39 /* KVCoreDataManager.h */; };
+		D33BA343135A6C6C003CDB39 /* KVCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BA333135A6C6C003CDB39 /* KVCoreDataManager.m */; };
+		D33BA344135A6C6C003CDB39 /* KVNSFetchedResultsControllerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA321135A6C6C003CDB39 /* KVNSFetchedResultsControllerAdditions.h */; };
+		D33BA345135A6C6C003CDB39 /* KVNSFetchedResultsControllerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BA322135A6C6C003CDB39 /* KVNSFetchedResultsControllerAdditions.m */; };
+		D33BA346135A6C6C003CDB39 /* KVNSManagedObjectAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA323135A6C6C003CDB39 /* KVNSManagedObjectAdditions.h */; };
+		D33BA347135A6C6C003CDB39 /* KVNSManagedObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BA324135A6C6C003CDB39 /* KVNSManagedObjectAdditions.m */; };
+		D33BA348135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA325135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.h */; };
+		D33BA349135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BA326135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.m */; };
+		D33BA34A135A6C6C003CDB39 /* KVCompoundFetchedResultsController.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA329135A6C6C003CDB39 /* KVCompoundFetchedResultsController.h */; };
+		D33BA34B135A6C6C003CDB39 /* KVCompoundFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BA32A135A6C6C003CDB39 /* KVCompoundFetchedResultsController.m */; };
+		D33BA34C135A6C6C003CDB39 /* KVFilterableFetchedResultsController.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA32B135A6C6C003CDB39 /* KVFilterableFetchedResultsController.h */; };
+		D33BA34D135A6C6C003CDB39 /* KVFilterableFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BA32C135A6C6C003CDB39 /* KVFilterableFetchedResultsController.m */; };
+		D33BA34E135A6C6C003CDB39 /* KVArrayController.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA32F135A6C6C003CDB39 /* KVArrayController.h */; };
+		D33BA34F135A6C6C003CDB39 /* KVArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BA330135A6C6C003CDB39 /* KVArrayController.m */; };
+		D33BA350135A6C6C003CDB39 /* KVCoreDataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA331135A6C6C003CDB39 /* KVCoreDataKit.h */; };
+		D33BA351135A6C6C003CDB39 /* KVCoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA332135A6C6C003CDB39 /* KVCoreDataManager.h */; };
+		D33BA352135A6C6C003CDB39 /* KVCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BA333135A6C6C003CDB39 /* KVCoreDataManager.m */; };
+		D33BA35C135A6D24003CDB39 /* KVNSMutableArrayAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA35A135A6D24003CDB39 /* KVNSMutableArrayAdditions.h */; };
+		D33BA35D135A6D24003CDB39 /* KVNSMutableArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BA35B135A6D24003CDB39 /* KVNSMutableArrayAdditions.m */; };
+		D33BA35E135A6D24003CDB39 /* KVNSMutableArrayAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA35A135A6D24003CDB39 /* KVNSMutableArrayAdditions.h */; };
+		D33BA35F135A6D24003CDB39 /* KVNSMutableArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D33BA35B135A6D24003CDB39 /* KVNSMutableArrayAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D33BA310135A6B8E003CDB39 /* KVCoreDataKitMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = KVCoreDataKitMac.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33BA319135A6BB0003CDB39 /* KVCoreDataKitIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = KVCoreDataKitIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33BA321135A6C6C003CDB39 /* KVNSFetchedResultsControllerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVNSFetchedResultsControllerAdditions.h; sourceTree = "<group>"; };
+		D33BA322135A6C6C003CDB39 /* KVNSFetchedResultsControllerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVNSFetchedResultsControllerAdditions.m; sourceTree = "<group>"; };
+		D33BA323135A6C6C003CDB39 /* KVNSManagedObjectAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVNSManagedObjectAdditions.h; sourceTree = "<group>"; };
+		D33BA324135A6C6C003CDB39 /* KVNSManagedObjectAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVNSManagedObjectAdditions.m; sourceTree = "<group>"; };
+		D33BA325135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVNSManagedObjectContextAdditions.h; sourceTree = "<group>"; };
+		D33BA326135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVNSManagedObjectContextAdditions.m; sourceTree = "<group>"; };
+		D33BA329135A6C6C003CDB39 /* KVCompoundFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCompoundFetchedResultsController.h; sourceTree = "<group>"; };
+		D33BA32A135A6C6C003CDB39 /* KVCompoundFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCompoundFetchedResultsController.m; sourceTree = "<group>"; };
+		D33BA32B135A6C6C003CDB39 /* KVFilterableFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVFilterableFetchedResultsController.h; sourceTree = "<group>"; };
+		D33BA32C135A6C6C003CDB39 /* KVFilterableFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVFilterableFetchedResultsController.m; sourceTree = "<group>"; };
+		D33BA32F135A6C6C003CDB39 /* KVArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVArrayController.h; sourceTree = "<group>"; };
+		D33BA330135A6C6C003CDB39 /* KVArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVArrayController.m; sourceTree = "<group>"; };
+		D33BA331135A6C6C003CDB39 /* KVCoreDataKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCoreDataKit.h; sourceTree = "<group>"; };
+		D33BA332135A6C6C003CDB39 /* KVCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCoreDataManager.h; sourceTree = "<group>"; };
+		D33BA333135A6C6C003CDB39 /* KVCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCoreDataManager.m; sourceTree = "<group>"; };
+		D33BA35A135A6D24003CDB39 /* KVNSMutableArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVNSMutableArrayAdditions.h; sourceTree = "<group>"; };
+		D33BA35B135A6D24003CDB39 /* KVNSMutableArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVNSMutableArrayAdditions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D33BA0EB135A32EE003CDB39 = {
+			isa = PBXGroup;
+			children = (
+				D33BA31F135A6C19003CDB39 /* Classes */,
+				D33BA311135A6B8E003CDB39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D33BA311135A6B8E003CDB39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D33BA310135A6B8E003CDB39 /* KVCoreDataKitMac.a */,
+				D33BA319135A6BB0003CDB39 /* KVCoreDataKitIOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D33BA31F135A6C19003CDB39 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D33BA332135A6C6C003CDB39 /* KVCoreDataManager.h */,
+				D33BA333135A6C6C003CDB39 /* KVCoreDataManager.m */,
+				D33BA331135A6C6C003CDB39 /* KVCoreDataKit.h */,
+				D33BA327135A6C6C003CDB39 /* Controllers */,
+				D33BA320135A6C6C003CDB39 /* Categories */,
+				D33BA334135A6C6C003CDB39 /* Protocols */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D33BA320135A6C6C003CDB39 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D33BA321135A6C6C003CDB39 /* KVNSFetchedResultsControllerAdditions.h */,
+				D33BA322135A6C6C003CDB39 /* KVNSFetchedResultsControllerAdditions.m */,
+				D33BA323135A6C6C003CDB39 /* KVNSManagedObjectAdditions.h */,
+				D33BA324135A6C6C003CDB39 /* KVNSManagedObjectAdditions.m */,
+				D33BA325135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.h */,
+				D33BA326135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.m */,
+				D33BA35A135A6D24003CDB39 /* KVNSMutableArrayAdditions.h */,
+				D33BA35B135A6D24003CDB39 /* KVNSMutableArrayAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D33BA327135A6C6C003CDB39 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D33BA32E135A6C6C003CDB39 /* Shared */,
+				D33BA328135A6C6C003CDB39 /* iOS */,
+				D33BA32D135A6C6C003CDB39 /* Mac */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D33BA328135A6C6C003CDB39 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D33BA329135A6C6C003CDB39 /* KVCompoundFetchedResultsController.h */,
+				D33BA32A135A6C6C003CDB39 /* KVCompoundFetchedResultsController.m */,
+				D33BA32B135A6C6C003CDB39 /* KVFilterableFetchedResultsController.h */,
+				D33BA32C135A6C6C003CDB39 /* KVFilterableFetchedResultsController.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D33BA32D135A6C6C003CDB39 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		D33BA32E135A6C6C003CDB39 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D33BA32F135A6C6C003CDB39 /* KVArrayController.h */,
+				D33BA330135A6C6C003CDB39 /* KVArrayController.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D33BA334135A6C6C003CDB39 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D33BA30C135A6B8E003CDB39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33BA337135A6C6C003CDB39 /* KVNSManagedObjectAdditions.h in Headers */,
+				D33BA339135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.h in Headers */,
+				D33BA33F135A6C6C003CDB39 /* KVArrayController.h in Headers */,
+				D33BA341135A6C6C003CDB39 /* KVCoreDataKit.h in Headers */,
+				D33BA342135A6C6C003CDB39 /* KVCoreDataManager.h in Headers */,
+				D33BA35C135A6D24003CDB39 /* KVNSMutableArrayAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33BA315135A6BB0003CDB39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33BA344135A6C6C003CDB39 /* KVNSFetchedResultsControllerAdditions.h in Headers */,
+				D33BA346135A6C6C003CDB39 /* KVNSManagedObjectAdditions.h in Headers */,
+				D33BA348135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.h in Headers */,
+				D33BA34A135A6C6C003CDB39 /* KVCompoundFetchedResultsController.h in Headers */,
+				D33BA34C135A6C6C003CDB39 /* KVFilterableFetchedResultsController.h in Headers */,
+				D33BA34E135A6C6C003CDB39 /* KVArrayController.h in Headers */,
+				D33BA350135A6C6C003CDB39 /* KVCoreDataKit.h in Headers */,
+				D33BA351135A6C6C003CDB39 /* KVCoreDataManager.h in Headers */,
+				D33BA35E135A6D24003CDB39 /* KVNSMutableArrayAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D33BA30F135A6B8E003CDB39 /* KVCoreDataKit For Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33BA314135A6B8E003CDB39 /* Build configuration list for PBXNativeTarget "KVCoreDataKit For Mac" */;
+			buildPhases = (
+				D33BA30C135A6B8E003CDB39 /* Headers */,
+				D33BA30D135A6B8E003CDB39 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KVCoreDataKit For Mac";
+			productName = "KVCoreDataKit For Mac";
+			productReference = D33BA310135A6B8E003CDB39 /* KVCoreDataKitMac.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D33BA318135A6BB0003CDB39 /* KVCoreDataKit For iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33BA31E135A6C08003CDB39 /* Build configuration list for PBXNativeTarget "KVCoreDataKit For iOS" */;
+			buildPhases = (
+				D33BA315135A6BB0003CDB39 /* Headers */,
+				D33BA316135A6BB0003CDB39 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KVCoreDataKit For iOS";
+			productName = "KVCoreDataKit For iOS";
+			productReference = D33BA319135A6BB0003CDB39 /* KVCoreDataKitIOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D33BA0ED135A32EE003CDB39 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D33BA0F0135A32EE003CDB39 /* Build configuration list for PBXProject "KVCoreDataKit" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = D33BA0EB135A32EE003CDB39;
+			productRefGroup = D33BA311135A6B8E003CDB39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D33BA318135A6BB0003CDB39 /* KVCoreDataKit For iOS */,
+				D33BA30F135A6B8E003CDB39 /* KVCoreDataKit For Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D33BA30D135A6B8E003CDB39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33BA338135A6C6C003CDB39 /* KVNSManagedObjectAdditions.m in Sources */,
+				D33BA33A135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.m in Sources */,
+				D33BA340135A6C6C003CDB39 /* KVArrayController.m in Sources */,
+				D33BA343135A6C6C003CDB39 /* KVCoreDataManager.m in Sources */,
+				D33BA35D135A6D24003CDB39 /* KVNSMutableArrayAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33BA316135A6BB0003CDB39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33BA345135A6C6C003CDB39 /* KVNSFetchedResultsControllerAdditions.m in Sources */,
+				D33BA347135A6C6C003CDB39 /* KVNSManagedObjectAdditions.m in Sources */,
+				D33BA349135A6C6C003CDB39 /* KVNSManagedObjectContextAdditions.m in Sources */,
+				D33BA34B135A6C6C003CDB39 /* KVCompoundFetchedResultsController.m in Sources */,
+				D33BA34D135A6C6C003CDB39 /* KVFilterableFetchedResultsController.m in Sources */,
+				D33BA34F135A6C6C003CDB39 /* KVArrayController.m in Sources */,
+				D33BA352135A6C6C003CDB39 /* KVCoreDataManager.m in Sources */,
+				D33BA35F135A6D24003CDB39 /* KVNSMutableArrayAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D33BA0EE135A32EE003CDB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D33BA0EF135A32EE003CDB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		D33BA312135A6B8E003CDB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = KVCoreDataKitMac;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				SYMROOT = "build-mac";
+			};
+			name = Debug;
+		};
+		D33BA313135A6B8E003CDB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = KVCoreDataKitMac;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				SYMROOT = "build-mac";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		D33BA31A135A6BB0003CDB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				PRODUCT_NAME = KVCoreDataKitIOS;
+				SDKROOT = iphoneos;
+				SYMROOT = "build-ios";
+			};
+			name = Debug;
+		};
+		D33BA31B135A6BB0003CDB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				PRODUCT_NAME = KVCoreDataKitIOS;
+				SDKROOT = iphoneos;
+				SYMROOT = "build-ios";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D33BA0F0135A32EE003CDB39 /* Build configuration list for PBXProject "KVCoreDataKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33BA0EE135A32EE003CDB39 /* Debug */,
+				D33BA0EF135A32EE003CDB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33BA314135A6B8E003CDB39 /* Build configuration list for PBXNativeTarget "KVCoreDataKit For Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33BA312135A6B8E003CDB39 /* Debug */,
+				D33BA313135A6B8E003CDB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33BA31E135A6C08003CDB39 /* Build configuration list for PBXNativeTarget "KVCoreDataKit For iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33BA31A135A6BB0003CDB39 /* Debug */,
+				D33BA31B135A6BB0003CDB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D33BA0ED135A32EE003CDB39 /* Project object */;
+}
