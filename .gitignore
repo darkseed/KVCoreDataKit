@@ -1,5 +1,5 @@
 *.perspectivev3
-/*.pbxuser
+*.pbxuser
 build-ios/
 build-ios/*
 build-mac/
@@ -7,4 +7,3 @@ build-mac/*
 build/
 build/*
 .DS_Store
-/KVCoreDataKit.xcodeproj/kylevanessen.pbxuser
